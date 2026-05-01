@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidhanth Sriram - Student Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <img
+        class="profile-pic"
+        src="https://via.placeholder.com/140"
+        alt="Profile Picture"
+      />
+
+      <div class="hero-text">
+        <h1>Sidhanth Sriram</h1>
+        <p class="subtitle">Student Developer | Designer | Problem Solver</p>
+        <p class="intro">
+          Welcome to my professional portfolio. This website highlights who I am,
+          what I have built, and the skills I am developing through coding and
+          technology projects.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#game">Game</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        My name is Sidhanth, and I am a student interested in coding, digital
+        design, and creative technology. I enjoy building projects that combine
+        problem-solving, logic, and imagination. This portfolio showcases my work
+        and growth as a student creator.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Scratch Game Project</h3>
+          <p>
+            A game I designed using logic, animation, and interactive controls.
+          </p>
+          <p><strong>Tools:</strong> Scratch</p>
+          <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Python Program</h3>
+          <p>
+            A coding project that helped me practice variables, logic, and debugging.
+          </p>
+          <p><strong>Tools:</strong> Python</p>
+          <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>
+            A personal website created to present my skills, projects, and goals.
+          </p>
+          <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Scratch</span>
+        <span>Python</span>
+        <span>Debugging</span>
+        <span>Problem Solving</span>
+        <span>Creative Design</span>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience and Growth</h2>
+      <p>
+        During this course, I learned how to plan projects, test ideas, fix errors,
+        and improve my work over time. I also practiced explaining my thinking and
+        presenting my projects in a professional way.
+      </p>
+
+      <div class="resume-box">
+        <h3>Highlights</h3>
+        <ul>
+          <li>Built coding projects using multiple digital tools</li>
+          <li>Learned how to debug and improve programs</li>
+          <li>Practiced presenting work clearly to others</li>
+          <li>Developed stronger problem-solving and design skills</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="game">
+      <h2>Arcade Games</h2>
+      <p>
+        This is an interactive arcade game collection. Click "Start Game" to play Flappy Bird, or press KONG on the home screen to unlock the secret game menu with Snake and Breakout!
+      </p>
+
+      <div class="game-panel">
+        <div class="game-stats">
+          <p>Score: <span id="score">0</span></p>
+          <p>Status: <span id="time">Ready</span></p>
+        </div>
+
+        <button id="start-btn">Start Game</button>
+
+        <div id="game-area">
+          <div id="target"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact and Future Goals</h2>
+      <p>
+        In the future, I want to continue improving my coding and design skills by
+        building more advanced projects, learning new languages, and exploring
+        careers in technology.
+      </p>
+      <p><strong>Email:</strong> school-email@example.com</p>
+    </section>
+  </main>
+`
+  <footer>
+    <p>Created by Sidhanth Sriram | Student Developer Portfolio</p>
+  </footer>
+
+  <!-- Main arcade script -->
+  <script src="script.js"></script>
+
+  <!-- Game modules (in arcade_games folder) -->
+  <script src="arcade_games/flappy_bird_module.js"></script>
+  <script src="arcade_games/snake_module.js"></script>
+  <script src="arcade_games/space_invaders_module.js"></script>
+  <script src="arcade_games/breakout_module.js"></script>
+</body>
+</html>
